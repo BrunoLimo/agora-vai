@@ -5,4 +5,4 @@ COPY . /src
 WORKDIR /src
 RUN poetry install
 EXPOSE 8501
-ENTRYPOINT ["streamlit","run","app.py","--server.port:8501"]
+ENTRYPOINT ["streamlit","run","app.py"]
